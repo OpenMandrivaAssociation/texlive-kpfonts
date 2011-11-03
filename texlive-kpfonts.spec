@@ -1,3 +1,9 @@
+# revision 21964
+# category Package
+# catalog-ctan /fonts/kpfonts
+# catalog-date 2010-12-31 19:35:04 +0100
+# catalog-license gpl
+# catalog-version 3.31
 Name:		texlive-kpfonts
 Version:	3.31
 Release:	1
@@ -1972,6 +1978,7 @@ their parent.
 %doc %{_texmfdistdir}/doc/fonts/kpfonts/kpfonts.pdf
 %doc %{_texmfdistdir}/doc/fonts/kpfonts/kpfonts.tex
 %doc %{_texmfdistdir}/doc/fonts/kpfonts/readme.txt
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -1982,3 +1989,5 @@ their parent.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
