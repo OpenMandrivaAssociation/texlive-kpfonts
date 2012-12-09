@@ -1979,3 +1979,17 @@ their parent.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.31-2
++ Revision: 753039
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.31-1
++ Revision: 718786
+- texlive-kpfonts
+- texlive-kpfonts
+- texlive-kpfonts
+- texlive-kpfonts
+
