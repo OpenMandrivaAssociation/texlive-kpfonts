@@ -1,12 +1,12 @@
-# revision 21964
+# revision 29803
 # category Package
 # catalog-ctan /fonts/kpfonts
-# catalog-date 2010-12-31 19:35:04 +0100
+# catalog-date 2012-07-05 15:28:28 +0200
 # catalog-license gpl
 # catalog-version 3.31
 Name:		texlive-kpfonts
 Version:	3.31
-Release:	2
+Release:	3
 Summary:	A complete set of fonts for text and mathematics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/kpfonts
@@ -1979,17 +1979,3 @@ their parent.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.31-2
-+ Revision: 753039
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.31-1
-+ Revision: 718786
-- texlive-kpfonts
-- texlive-kpfonts
-- texlive-kpfonts
-- texlive-kpfonts
-
