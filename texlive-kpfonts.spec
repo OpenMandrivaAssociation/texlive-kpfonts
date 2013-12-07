@@ -6,7 +6,7 @@
 # catalog-version 3.31
 Name:		texlive-kpfonts
 Version:	3.31
-Release:	4
+Release:	5
 Summary:	A complete set of fonts for text and mathematics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/kpfonts
