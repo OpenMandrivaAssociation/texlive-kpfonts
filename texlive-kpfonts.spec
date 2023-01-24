@@ -1,5 +1,5 @@
 Name:		texlive-kpfonts
-Version:	64440
+Version:	65583
 Release:	1
 Summary:	A complete set of fonts for text and mathematics
 Group:		Publishing
