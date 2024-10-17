@@ -3,7 +3,7 @@ Version:	65583
 Release:	2
 Summary:	A complete set of fonts for text and mathematics
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/kpfonts
+URL:		https://www.ctan.org/tex-archive/fonts/kpfonts
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/kpfonts.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/kpfonts.doc.r%{version}.tar.xz
