@@ -1,6 +1,6 @@
 Name:		texlive-kpfonts
-Version:	65583
-Release:	2
+Version:	72680
+Release:	1
 Summary:	A complete set of fonts for text and mathematics
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/fonts/kpfonts
